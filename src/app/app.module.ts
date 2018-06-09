@@ -12,6 +12,7 @@ import {PhoneService} from "./services/phoneService";
 const routes = [
   {path:"", component:ListComponent},
   {path:"add",component:AddComponent},
+  {path:"details/:phone",component:DetailsComponent},
   {path:"list/details/:phone",component:DetailsComponent},
   {path:"list",component:ListComponent},
   {path:"**",component:BadUrlComponent}
