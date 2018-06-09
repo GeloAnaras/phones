@@ -1,0 +1,6 @@
+<ul *ngFor="let phone of phonesArray;let i = index">
+  <li>{{phone.model}}</li>
+  <li>{{phone.battery}}</li>
+  <li>{{phone.description}}</li>
+  <a [routerLink]="['details',i]">DETAILS</a>
+</ul>
